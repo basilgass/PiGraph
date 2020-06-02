@@ -1,0 +1,3 @@
+# Project exclude paths
+/distStatic/
+/node_modules/

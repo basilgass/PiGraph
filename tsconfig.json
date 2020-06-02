@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./distStatic/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "esnext",
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./dist/typings/"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
