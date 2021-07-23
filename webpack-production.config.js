@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './src/main.ts',
 	devtool: 'source-map',
 	module: {
@@ -18,7 +18,7 @@ module.exports = {
 	},
 	output: {
 		filename: 'pigraph.js',
-		path: path.resolve(__dirname, 'distStatic')
+		path: path.resolve(__dirname, 'distProduction')
 	},
 	/*plugins: [new BundleAnalyzerPlugin()],*/
 	externals: {

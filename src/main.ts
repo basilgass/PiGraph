@@ -1,4 +1,4 @@
-import Graph from "./graphe";
+import Graph from "./graph";
 
 export interface IAxis {
     x: { min: number, max: number },

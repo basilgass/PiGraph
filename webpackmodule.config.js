@@ -19,8 +19,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'pigraphe.js',
-        library: 'PiGraphe',
+        filename: 'pigraph.js',
+        library: 'PiGraph',
         libraryTarget: "umd"
     },
     optimization: {
@@ -30,7 +30,8 @@ module.exports = {
     },
     externals: {
         '@svgdotjs/svg.js': '@svgdotjs/svg.js',
-        '@svgdotjs/svg.draggable.js': '@svgdotjs/svg.draggable.js'
+        '@svgdotjs/svg.draggable.js': '@svgdotjs/svg.draggable.js',
+        'katex': 'katex.js'
     },
     /*plugins: [
         new BundleAnalyzerPlugin()

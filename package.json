@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack --watch --config webpack.config.js",
+    "prod": "webpack --config webpack-production.config.js",
     "module": "webpack --config webpackmodule.config.js"
   },
   "keywords": [],
@@ -23,6 +24,7 @@
   "dependencies": {
     "@svgdotjs/svg.draggable.js": "^3.0.2",
     "@svgdotjs/svg.js": "^3.0.16",
-    "katex": "^0.11.1"
+    "@types/mathjs": "^6.0.8",
+    "mathjs": "^8.1.0"
   }
 }
