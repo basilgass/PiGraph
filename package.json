@@ -12,19 +12,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.22.0",
-    "@typescript-eslint/parser": "^2.22.0",
-    "eslint": "^6.8.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
-    "webpack": "^4.41.6",
-    "webpack-bundle-analyzer": "^3.7.0",
-    "webpack-cli": "^3.3.11"
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.1.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.61.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1"
   },
   "dependencies": {
     "@svgdotjs/svg.draggable.js": "^3.0.2",
-    "@svgdotjs/svg.js": "^3.0.16",
-    "@types/mathjs": "^6.0.8",
-    "mathjs": "^8.1.0"
+    "@svgdotjs/svg.js": "^3.1.1",
+    "@types/mathjs": "^9.4.2",
+    "mathjs": "^9.5.2"
   }
 }
